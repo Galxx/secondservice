@@ -1,0 +1,17 @@
+
+server:
+  port: 3001
+
+logging:
+  level:
+    root: info
+    org.springframework.web: ERROR
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-ae3q5t9f.us.auth0.com/
+
+#debug: true
